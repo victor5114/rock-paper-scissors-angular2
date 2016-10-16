@@ -35,7 +35,13 @@ const barrels: string[] = [
 
     // App specific barrels.
     'app',
-    'app/directives/footer-bar',
+    'app/components/game-rps',
+    'app/components/game-window',
+    'app/components/action-window',
+    'app/components/action-difficulty',
+    'app/components/button-play',
+    'app/components/stats-tab',
+    'app/components/footer-bar'
     /** @cli-barrel */
 ];
 

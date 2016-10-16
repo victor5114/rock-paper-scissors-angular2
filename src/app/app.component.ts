@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {FooterBarComponent} from './directives/footer-bar';
+import {FooterBarComponent} from './components/footer-bar';
 
 @Component({
     moduleId: module.id,

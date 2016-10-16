@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
     styleUrls: ['footer-bar.component.css']
 })
 export class FooterBarComponent implements OnInit {
-    heart_src: '/static/img/Techno/heart';
+    heart_src: String = './static/img/Techno/heart.png';
 
     constructor() {}
 
