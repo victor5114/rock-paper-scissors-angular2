@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
     moduleId: module.id,
@@ -6,6 +6,8 @@ import {Component} from '@angular/core';
     templateUrl: 'stats-tab.component.html',
     styleUrls: ['stats-tab.component.css']
 })
-export class StatsTabComponent {
+export class StatsTabComponent implements OnInit {
     constructor() {}
+
+    ngOnInit() {}
 }
